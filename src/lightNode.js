@@ -14,7 +14,7 @@ const { safeParseInt } = require('./common.js')
 
 const HOUR = 60 * 60 * 1000
 const FOUR_HOURS = 4 * HOUR
-const THIRTY_DAYS = 30 * 24 * HOUR
+const THIRTY_DAYS = 9999999999 * 24 * HOUR //insecure patch
 
 // TODO: support multiple peers
 // (multiple connections to listen for headers,
